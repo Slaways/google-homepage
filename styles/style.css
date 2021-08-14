@@ -10,16 +10,27 @@
     padding-top: 40px;
 }
 .searchbox{
-    width: 400px;
-    height: 25px;
+    width: 600px;
+    height: 35px;
     border-radius: 30px;
-    border-width: 1px;
+    border-width: 2px;
     border-color: rgb(209, 209, 209);
-    box-shadow: 1px 2px grey;
+    padding-left: 20px;
+    background-image: url(../images/google-search.png) no-repeat;
+    
 }
 .searchbox:focus{
-    outline: none;
+    outline: transparent;
+    border-width: 3px; 
+}
+.searchbox:hover{
+    border-width: 3px;
 }
 .searchbuttons {
     margin: 10px;
+    margin-top: 30px;
+    width: 120px;
+    height: 45px;
+    background-color: rgb(231, 231, 231);
+    border-color: transparent;
 }
