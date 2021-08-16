@@ -4,7 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 140px;
+    padding-left: 275px;
 }
 .googlepic {
     padding-bottom: 20px;
@@ -42,14 +42,31 @@
 .navbar{
     float: right;
     display: flex;
-    gap: 10px;
+    gap: 15px;
     align-items: center;
+    padding-right: 10px;
 }
 a{
-    color:grey;
+    color:black;
     text-decoration: none;
 }
 a:hover{
     color:black;
     text-decoration: underline;
+}
+.googleapp{
+    width: 20px;
+    height: 20px;
+}
+.logbutton{
+    border: none;
+    background-color: rgba(52, 52, 252, 0.884);
+    color: white;
+    border-radius: 5%;
+    width: 120px;
+    height: 35px;
+}
+.logbutton:hover{
+    background-color: rgba(85, 85, 255, 0.884);
+    cursor: pointer;
 }
