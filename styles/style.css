@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 275px;
 }
 .googlepic {
     padding-bottom: 20px;
@@ -16,7 +15,6 @@
     border-radius: 30px;
     border-width: 2px;
     border-color: rgb(209, 209, 209);
-    padding-left: 20px;
     
 }
 .searchbox:focus{
@@ -69,4 +67,17 @@ a:hover{
 .logbutton:hover{
     background-color: rgba(85, 85, 255, 0.884);
     cursor: pointer;
+}
+footer{
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+
+
+}
+body{
+    display:flex; 
+    flex-direction:column; 
 }
