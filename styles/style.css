@@ -2,8 +2,9 @@
 
 .main {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
+    justify-content: center;
 }
 .googlepic {
     padding-bottom: 20px;
@@ -31,6 +32,7 @@
     height: 45px;
     background-color: rgb(231, 231, 231);
     border-color: transparent;
+    color:rgb(51, 51, 51);
 }
 .searchbuttons:hover{
     border-color: rgb(189, 189, 189);
@@ -38,11 +40,12 @@
 }
 
 .navbar{
-    float: right;
     display: flex;
     gap: 15px;
     align-items: center;
     padding-right: 10px;
+    width: 100%;
+    justify-content: flex-end;
 }
 a{
     color:black;
@@ -55,6 +58,11 @@ a:hover{
 .googleapp{
     width: 20px;
     height: 20px;
+
+}
+.googleapp:hover{
+    background-color: rgb(97, 97, 97);
+    
 }
 .logbutton{
     border: none;
@@ -69,15 +77,46 @@ a:hover{
     cursor: pointer;
 }
 footer{
-    background-color: black;
+    background-color: rgb(204, 204, 204);
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-style: solid;
+    border-color: rgb(161, 161, 161);
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.push {
+    margin-left: auto;
+}
+.push1 {
+    margin-left: 450px;
+}
 
+.footer{
+    color: rgb(97, 97, 97);
+}
+.footer:hover{
+    color:rgb(97, 97, 97);
+}
 
 }
 body{
     display:flex; 
     flex-direction:column; 
+}
+header{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+}
+.righth {
+    justify-content: right;
 }
