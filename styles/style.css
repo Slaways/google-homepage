@@ -92,23 +92,36 @@ footer{
     align-items: center;
     gap: 20px;
 }
+.padding_left{
+    padding-left: 20px;
+}
+.padding_right{
+    padding-right: 20px;
+}
 .push {
     margin-left: auto;
 }
 .push1 {
-    margin-left: 450px;
+    margin-left: auto;
 }
 
 .footer{
     color: rgb(97, 97, 97);
+
 }
 .footer:hover{
     color:rgb(97, 97, 97);
 }
+.float_left{
+    float: left;
+}
+.float_right{
+    float: right;
+}
 
 body{
-    display:flex; 
-    flex-direction:column; 
+    display: flex; 
+    flex-direction: column; 
 }
 header{
     width: 100%;
